@@ -30,6 +30,6 @@ app.get('/', (req, res) => {
     res.send("server is ready")
 })
 
-const port =process.env.PORT || 4000;
+const port =4000;
 console.log(port)
 app.listen(port);
