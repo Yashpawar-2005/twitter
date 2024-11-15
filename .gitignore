@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+
+# Vite
+dist/
+.vite/
+
+# Build output
+build/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: package lock files if you're using yarn instead of npm
+yarn.lock
+
+# Optional: To avoid committing coverage reports
+coverage/
+
+# Optional: If using testing libraries, like Jest
+jest/
+
+# Optional: If you have any custom files to exclude, such as temporary or backup files
+*.bak
+*.swp
